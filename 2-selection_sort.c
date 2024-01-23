@@ -27,9 +27,9 @@ void selection_sort(int *array, size_t size)
 	int *min;
 	size_t a, j;
 
-	if (array == NULL || sizze < 2)
+	if (array == NULL || size < 2)
 		return;
-	for (a = 0; a < size - 1, a++)
+	for (a = 0; a < size - 1; a++)
 	{
 		min = array + a;
 		for (j = a + 1; j < size; j++)

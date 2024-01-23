@@ -1,5 +1,5 @@
 #include "sort.h"
- 
+
 void swap_ints(int *f, int *h);
 void quick_sort(int *array, size_t size);
 int lomuto_partition(int *array, size_t size, int left, int right);
